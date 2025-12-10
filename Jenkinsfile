@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building automatically again '
+                echo 'Additional echo in Build stage'
             }
         }
  stage('Test') {
